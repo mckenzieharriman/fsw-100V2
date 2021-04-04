@@ -1,0 +1,27 @@
+h1{color:darkgreen}
+
+.main{
+  text-align : center;
+}
+
+body{
+  font-family: Georgia, brush script, sans-serif,
+}
+.para{
+  line-height = 25px;
+}
+#hplnk{
+  text-decoration: none;
+}
+#might{
+  text-transform: uppercase;
+}
+
+.img{
+  float: left;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  
+}
