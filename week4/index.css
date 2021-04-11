@@ -1,0 +1,27 @@
+.navbar{
+    background: orange;
+    width: 100%;
+    position: fixed;
+  };
+  .div1 {
+      padding: 30px 30px 30px 30px;
+  }
+  .para1{
+    word-wrap: normal;
+  };
+ 
+  .image1{
+      height: 200px;
+      width: 200px;
+
+  };
+  
+  .para2{
+    word-wrap: normal;
+  };
+    
+  .image2{
+    height: 200px;
+    width: 200px;
+       
+  };
