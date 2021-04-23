@@ -1,0 +1,101 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 6 / 1fr;
+    justify-content: center;
+    margin: 30px;
+    padding: 15px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    border: groove;
+    background-color: darkgoldenrod;
+}
+
+.grid-container > div:nth-child(1){
+     
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: purple;
+    padding: 30px;
+    
+}
+
+#d1:hover{    
+    background-color: silver;
+    transition: margin-right;
+    border-color: darkkhaki;
+    border-style: groove;
+    border-width: 5px;
+}
+
+.grid-container > div:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: maroon;
+    padding: 30px;
+    }
+
+
+    #d2:hover{
+        background-color: silver;
+        transition: margin-right 10s;
+        border-radius: 50%;
+            }
+    
+
+.grid-container > div:nth-child(3){
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    background-color: green;
+    padding: 30px;}
+    #d3:hover{
+        background-color: silver ;
+        border-radius: 20%;
+        border-collapse: separate;
+        opacity:0.3;
+        
+        }
+    
+
+.grid-container > div:nth-child(4){
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: blue;
+    padding: 30px;
+}
+    #d4:hover{
+        background-color: silver;
+        transition: margin-right 4s  2s ;
+        text-decoration: underline;
+        
+    }
+    
+
+.grid-container > div:nth-child(5){
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: red;
+    padding: 30px;
+}
+       #d5:hover{
+        background-color: rgb(148, 84, 84);
+        transition: margin-right;
+        border-radius: 50%;
+    }
+    
+
+.grid-container > div:nth-child(6){
+    grid-column: 5/6;
+    grid-row: 1/2;
+    background-color: orange;
+    padding: 30px;
+    }
+    #d6:hover{
+        background-color: silver;
+        padding: 0px;
+        text-decoration-color: olivedrab;
+    }
+    
